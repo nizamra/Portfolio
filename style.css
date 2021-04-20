@@ -1,0 +1,72 @@
+/* * { outline: 1px dotted rgb(25, 0, 255); }  */
+#container{
+    width: 1100px;
+    background-color: #2A191F;
+}
+#up{
+    padding:10px;
+    background-color: #F6F6F6;
+}
+#up h1, h2{
+    display: inline-block;
+}
+#up h2{
+    float: right;
+}
+
+#about{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+#mememe{
+	width:500px;
+	border: 8px solid #C0C0C0;
+}
+#writing-on-the-wall{
+    background-color: #DFD2DE;
+    width: 500px;
+    padding: 10px;
+}
+
+.mode-fam{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.mode{
+    width: 335px;
+    background-color: #E2D7E2;
+}
+.indoor{
+    width: 335px;
+}
+.mode h3{
+    background-color: #95949E;
+    padding: 10px;
+    color: azure;
+}
+.logo{
+    width: 60px;
+}
+.mode button{
+    background-color: rgb(11, 206, 11);
+	color:rgba(255, 255, 255, 0.801);
+	border:2px solid rgb(36, 0, 0);
+	border-radius: 10px;
+	padding:10px;
+	margin: 15px 120px;
+}
+
+#bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #F6F6F6;
+}
+#bottom .logo{
+    width: 20px;
+}
+#bottom a{
+    vertical-align:top;
+    margin: 5px;
+}
